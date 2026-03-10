@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indusha Ushan | Portfolio</title>
+    <style>
+        /* Modern & Professional CSS Variables */
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --text-color: #333;
+            --bg-color: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+        }
+
+        header {
+            background: var(--primary-color);
+            color: #fff;
+            padding: 3rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            font-weight: 300;
+            color: #bdc3c7;
+        }
+
+        .container {
+            width: 85%;
+            max-width: 900px;
+            margin: auto;
+            overflow: hidden;
+            padding: 2rem 0;
+        }
+
+        .section {
+            background: #fff;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+
+        .skills-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skills-list li {
+            background: var(--accent-color);
+            color: #fff;
+            padding: 0.5rem 1.2rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Indusha Ushan</h1>
+        <p>Software Engineering Student | Web Developer</p>
+    </header>
+
+    <div class="container">
+        <section class="section">
+            <h2>About Me</h2>
+            <p>Hello! I am a software engineering student currently pursuing my studies at ESOFT Metro Campus. I am passionate about building efficient, scalable applications and continuously expanding my technical skill set. I am looking forward to applying my knowledge to real-world projects.</p>
+        </section>
+
+        <section class="section">
+            <h2>Technical Skills</h2>
+            <ul class="skills-list">
+                <li>Python</li>
+                <li>C#</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Connect With Me</h2>
+            <p>Email: indushaushan@gmail.com</p>
+            <p>
+                <a href="#">LinkedIn</a> |  
+                <a href="#">GitHub</a>
+            </p>
+        </section>
+    </div>
+
+</body>
+</html>
