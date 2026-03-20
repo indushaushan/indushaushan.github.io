@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-logo">
+            <h1>NETFLIX</h1>
+        </div>
+        <div class="nav-buttons">
+            <button class="signin-btn">Sign In</button>
+        </div>
+    </nav>
+
+    <header id="banner" class="banner">
+        <div class="banner-contents">
+            <h1 id="banner-title" class="banner-title">Loading...</h1>
+            <div class="banner-buttons">
+                <button class="banner-button">Play</button>
+                <button class="banner-button">My List</button>
+            </div>
+            <p id="banner-description" class="banner-description"></p>
+        </div>
+        <div class="banner-fadeBottom"></div>
+    </header>
+
+    <div class="row">
+        <h2>NETFLIX ORIGINALS</h2>
+        <div id="originals" class="row-posters">
+            </div>
+    </div>
+
+    <div class="row">
+        <h2>Trending Now</h2>
+        <div id="trending" class="row-posters">
+            </div>
+    </div>
+
+    <div class="row">
+        <h2>Action Movies</h2>
+        <div id="action" class="row-posters">
+            </div>
+    </div>
+
+    <div class="row">
+        <h2>Comedy Movies</h2>
+        <div id="comedy" class="row-posters">
+            </div>
+    </div>
+
+    <div class="row">
+        <h2>Horror Movies</h2>
+        <div id="horror" class="row-posters">
+            </div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+
+    <div id="trailer-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeTrailer()">&times;</span>
+            <iframe id="youtube-player" width="100%" height="100%" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+    
+</body>
+</html>
